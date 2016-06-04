@@ -11,8 +11,6 @@ import com.donut.tests.LoginTest;
 @Suite.SuiteClasses({
   //include test class Names here
 	LoginTest.class
-  
- 
 })
 
 public class Test {
