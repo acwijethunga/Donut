@@ -4,7 +4,6 @@
   <artifactId>Donut</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 <name>test-Test</name>
-  
   <dependencies>
   <!-- http://mvnrepository.com/artifact/junit/junit -->
 <dependency>
