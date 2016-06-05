@@ -1,2 +1,15 @@
+language: java
+
+before_script:
+- nvm install 5.0
+- nvm use 5.0
+- python -m SimpleHTTPServer &
+
 script:
-mvn test
+- chmod 777 ./src/main/shell_scripts/elements.sh
+#- chmod 777 ./src/main/shell_scripts/app-header.sh
+#- chmod 777 ./src/main/shell_scripts/contextual-help.sh
+- ./src/main/shell_scripts/elements.sh
+#- ./src/main/shell_scripts/app-header.sh
+#- ./src/main/shell_scripts/contextual-help.sh
+- mvn test
