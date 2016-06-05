@@ -10,7 +10,8 @@ import com.donut.tests.LoginTest;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
   //include test class Names here
-	LoginTest.class	
+	LoginTest.class
+	
 })
 
 public class Test {
