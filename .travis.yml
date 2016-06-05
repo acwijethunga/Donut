@@ -1,2 +1,2 @@
-
-install: ./install-dependencies.sh
+script:
+mvn test
